@@ -132,24 +132,22 @@
 
      <!-- CONTACT SECTION DESIGN  -->
 
-     <section class="contact" id="contact">
-        <h2 class="heading">Contact <span>Me</span></h2>
-
-        <form action="https://formsubmit.co/shivanshdubey291@email.com" method="POST">
-            <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email Address">
+     <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <div class="contact-left-title">
+                <h2>GET IN <span>Touch</span></h2>
+                <hr>
             </div>
-
-            <div class="input-box">
-                <input type="number" placeholder="Mobile Number">
-                <input type="text" placeholder="Email Subject">
-            </div>
-
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-            <input type="submit" value="Send Message" class="btn">
+            <input type="hidden" name="access_key" value="44313708-86f6-4046-886c-5062df4a8451">
+            <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+            <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+            <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+            <button type="submit" class="btn">Submit <i class="fa-solid fa-up-right-from-square"></i></button>
         </form>
-     </section>
+        <div class="contact-right">
+            <img src="images/right_img.png" alt="">
+        </div>
+     </div>
 
      <!-- FOOTER DESIGN  -->
       <footer class="footer">
