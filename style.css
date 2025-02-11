@@ -527,7 +527,7 @@ span {
         display: none;
     }
 
-    .navbar .active {
+    .navbar.active {
         display: block;
     }
 
