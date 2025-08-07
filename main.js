@@ -57,4 +57,12 @@ const typed = new Typed('.multiple-text',{
     backSpeed: 70,
     backDelay: 1000,
     loop: true,
+
+ // =====================contact JS ====================
+
+ function sendMail(){
+    let parms ={
+        name : document.getElementById("")
+    }
+ }
 })
